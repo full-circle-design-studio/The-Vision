@@ -22,16 +22,20 @@ header{
 .video-container{
 position: absolute;
 top: 0;
+left: 0;
 width: 100vw;
 height: 100vh;
 z-index: -5;
 
 iframe{
-  width: 100vw!important;
-  height: 100vh!important;
+  width: 105vw!important;
+  height: 105vh!important;
   position: absolute;
   top: -5vh;
   z-index: -100;
+  padding: 0;
+  min-width: 100vw;
+  left: 0;
 }
 
 .main-link{
