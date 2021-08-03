@@ -4,6 +4,7 @@ h2 {
   font-weight: bolder;
   color: #5B5D60; }
 
+/* Header */
 header {
   position: fixed;
   top: 0;
@@ -36,6 +37,20 @@ header {
     background-color: #0DB14B; }
   100% {
     background-color: cyan; } }
+/* close header */
+/* NAV */
+nav {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.75);
+  display: none; }
+
+.nav-diplay {
+  display: block; }
+
+/* close nav */
 .video-container {
   position: absolute;
   top: 0;

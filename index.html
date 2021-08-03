@@ -21,11 +21,14 @@
   </a>
 
 <div class="button-container">
-  <a href="#">
+  <a href="#" onclick="nav();">
 <img src="assets/menu.svg" alt="menu button" class="#">
 </a>
 </div>
   </header>
+
+  <nav id="nav">
+  </nav>
 
   <div class="col-12 header-background p-0 float-left">
 
@@ -108,6 +111,15 @@ ScrollReveal().reveal('.reveal-1', {
             origin: 'center',
             duration: 1000,
             reset: true} );
+</script>
+
+
+
+<script>
+function nav() {
+  var element = document.getElementById("nav");
+  element.classList.toggle("nav-display");
+}
 </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
