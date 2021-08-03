@@ -1,12 +1,12 @@
 $gray: #5B5D60;
+$cyan: #00AEEF;
 
 header{
   position: fixed;
   top: 0;
   z-index: 100;
   height: 110px;
-  padding-top: 14px;
-  border-top: 15px solid white;
+
   .logo-container{
     float: left;
     width: 100%;
@@ -18,6 +18,29 @@ header{
     }
   }
 }
+
+
+
+.header-background{
+  height: 110px;
+  position: fixed;
+  top: 0;
+  z-index: 90;
+  animation-name: background;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes background{
+  0% {background-color: cyan;}
+  25% {background-color: magenta;}
+  50% {background-color: #0DB14B;}
+  100%{background-color: cyan;}
+}
+
+
+
+
 
 .video-container{
 position: absolute;
@@ -108,8 +131,12 @@ color: $gray;
     font-weight: bolder;
     width: 100%;
     float: left;
-
+    font-size: 72px;
   }
+
+
+
+
 
   .text{
     font-size: 18px;
