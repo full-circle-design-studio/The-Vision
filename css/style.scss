@@ -7,6 +7,13 @@ h2{
   text-align: center;
   font-weight: bolder;
   color: $gray;
+  font-family: acier-bat-solid,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+p{
+  font-family: acherusgrotesque-regular!important;
 }
 
 
@@ -61,11 +68,32 @@ nav{
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, .75);
   display: none;
+  opacity: 0;
+
+  ul{
+    
+  }
 }
 
-.nav-diplay{
+.nav-display{
   display: block;
+  opacity: 1;
+  animation-name: nav;
+  animation-duration: .5s;
+  transform-origin: top;
 }
+
+@keyframes nav{
+  0%{
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  100%{
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
 
 /* close nav */
 
@@ -187,6 +215,9 @@ img{
     width: 100%;
     float: left;
     font-size: 72px;
+    font-family: acier-bat-solid,sans-serif;
+font-weight: 400;
+font-style: normal;
   }
 
 
