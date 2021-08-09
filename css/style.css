@@ -53,7 +53,35 @@ nav {
   background-color: rgba(255, 255, 255, 0.75);
   display: none;
   opacity: 0; }
+  nav ul {
+    float: left;
+    width: 80vw;
+    margin-left: 10vw;
+    z-index: 200;
+    margin-top: 35vh;
+    list-style: none; }
+    nav ul li {
+      margin-bottom: 25px;
+      animation-name: nav-animation;
+      animation-delay: .1s; }
+      nav ul li a {
+        color: #5B5D60;
+        font-size: 24px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px; }
+    nav ul li:nth-child(1) {
+      animation-duration: .5s; }
+    nav ul li:nth-child(2) {
+      animation-duration: .75s; }
+    nav ul li:nth-child(3) {
+      animation-duration: 1s; }
 
+@keyframes nav-animation {
+  0% {
+    transform: translateX(-500px); }
+  100% {
+    transform: translateX(0px); } }
 .nav-display {
   display: block;
   opacity: 1;
@@ -186,4 +214,4 @@ nav {
     padding: 5px !important;
     margin: 0; }
 
-/*# sourceMappingURL=Style.css.map */
+/*# sourceMappingURL=style.css.map */
