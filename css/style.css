@@ -52,11 +52,12 @@ nav {
   position: fixed;
   height: 100vh;
   width: 100vw;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.75);
   display: none;
   opacity: 0;
-  padding-top: 30vh; }
+  padding-top: 20vh; }
   nav p {
     text-align: center;
     width: 100%;
@@ -123,7 +124,7 @@ nav {
     animation-duration: 1s;
     transform-origin: center; }
   .close-menu img {
-    width: 20vw;
+    width: 15vw;
     height: auto;
     padding: 0; }
 
