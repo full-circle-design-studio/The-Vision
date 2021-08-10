@@ -59,7 +59,8 @@ nav {
   padding-top: 30vh; }
   nav p {
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    color: #5B5D60; }
   nav ul {
     float: left;
     width: 80vw;
