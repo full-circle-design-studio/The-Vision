@@ -25,7 +25,7 @@ a:hover{
 header{
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 200;
   height: 110px;
 
   .logo-container{
@@ -148,6 +148,7 @@ ul{
   animation-name: nav;
   animation-duration: .5s;
   transform-origin: top;
+  z-index: 150;
 }
 
 .close-menu{
@@ -322,6 +323,7 @@ img{
   float: left;
   height: auto;
   padding-top: 110px!important;
+  z-index: 0;
   img{
     float: left;
   }
