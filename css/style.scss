@@ -246,15 +246,15 @@ height: 75vh;
 z-index: -5;
 overflow: hidden;
 
-iframe{
-  width: 110vw!important;
-  height: 110vh!important;
+video{
+  width: 105vw!important;
+  height: auto;
   position: absolute;
-  top: -5vh;
+  top: 50px;
   z-index: -100;
   padding: 0;
   min-width: 100vw;
-  left: -5vw;
+  left: 0vw;
 
 }
 }
@@ -386,4 +386,101 @@ font-style: normal;
     padding: 5px!important;
     margin: 0;
   }
+}
+
+@media (min-width: 768px){
+
+
+
+  /* Header */
+  header{
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    height: 110px;
+
+    .logo-container{
+      float: left;
+      width: 50%;
+      height: 100%;
+      z-index: 101;
+      img{
+        width: 100%;
+        float: left;
+      }
+    }
+  }
+
+  .video-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 85vh;
+  z-index: -5;
+  overflow: hidden;
+
+  video{
+    width: 105vw!important;
+    height: auto;
+    position: absolute;
+    top: -20vh;
+    z-index: -100;
+    padding: 0;
+    min-width: 100vw;
+    left: 0vw;
+
+  }
+  }
+
+  .header-background{
+    height: 110px;
+    position: fixed;
+    top: 0;
+    z-index: 90;
+    background-color: white;
+    animation: none;
+  }
+
+
+  .main-link{
+    float: left;
+  height: 15vh;
+  margin-top: 85vh;
+  text-align: center;
+  padding-top: 2.5vh;
+  z-index: 100;
+  background-color: white;
+  letter-spacing: 3px;
+  font-size: 25px;
+  text-decoration: none;
+  color: $gray;
+  }
+
+
+
+  .main-link-2{
+    float: left;
+  height: 15vh;
+  margin-top: 85vh;
+  text-align: center;
+  padding-top: 2.5vh;
+  z-index: 100;
+  background-color: white;
+  letter-spacing: 3px;
+  font-size: 25px;
+  text-decoration: none;
+  color: $gray;
+  p{
+    float: left;
+    padding-left: 35px;
+    padding-right: 25px;
+    margin-top: 20px;
+  }
+  img{
+    float: left;
+    margin-top: 20px;
+  }
+  }
+
 }
