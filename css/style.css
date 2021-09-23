@@ -239,6 +239,12 @@ nav {
     float: left; }
   .body-container img:nth-child(1) {
     margin-bottom: 25px; }
+  .body-container p {
+    text-align: center;
+    font-family: Acherus;
+    margin-top: 15px; }
+  .body-container .add-padding {
+    padding: 50px; }
 
 .stat {
   float: left;
