@@ -342,11 +342,6 @@ img{
 }
 }
 
-.stat{
-  float: left;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  text-align: center;
 
 
 .stat-1{
@@ -361,6 +356,12 @@ img{
 .stat-4{
     border-bottom: 1px solid lightgray;
 }
+
+.stat{
+  float: left;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
 
   p{
     float: left;

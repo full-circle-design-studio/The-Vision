@@ -247,19 +247,23 @@ nav {
   .body-container .add-padding {
     padding: 50px; }
 
+.stat-1 {
+  border-bottom: 1px solid lightgray; }
+
+.stat-2 {
+  border-bottom: 1px solid lightgray; }
+
+.stat-3 {
+  border-bottom: 1px solid lightgray; }
+
+.stat-4 {
+  border-bottom: 1px solid lightgray; }
+
 .stat {
   float: left;
   padding-top: 35px;
   padding-bottom: 35px;
   text-align: center; }
-  .stat .stat-1 {
-    border-bottom: 1px solid lightgray; }
-  .stat .stat-2 {
-    border-bottom: 1px solid lightgray; }
-  .stat .stat-3 {
-    border-bottom: 1px solid lightgray; }
-  .stat .stat-4 {
-    border-bottom: 1px solid lightgray; }
   .stat p {
     float: left;
     text-align: center;
