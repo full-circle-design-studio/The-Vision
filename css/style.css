@@ -5,7 +5,8 @@ h2 {
   color: #5B5D60;
   font-family: acier-bat-solid,sans-serif;
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  line-height: 45px; }
 
 p {
   font-family: acherusgrotesque-regular !important; }
