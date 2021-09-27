@@ -301,6 +301,9 @@ nav {
     padding: 5px !important;
     margin: 0; }
 
+.sketchfab-embed-wrapper {
+  margin-top: 25vh; }
+
 @media (min-width: 768px) {
   /* Header */
   header {
